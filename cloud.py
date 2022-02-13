@@ -77,12 +77,11 @@ def uploadFile(file: str):
 @Cloudsy.on_message(filters.private & filters.command("start"))
 async def start(bot, update):
     await update.reply_text(
-        text=f"Hello {update.from_user.mention}, 👋\n\nJust send me a media & I'll upload it to the cloud.\n\nMade with ❤️ by @Sybots",
+        text=f"Hello {update.from_user.mention}, 👋\n\nJust send me a media & I'll upload it to the cloud.\n\nMade with ❤️ by @Tamil_Kingdom",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("📨 Updates", url="https://t.me/sybots"),
-                 InlineKeyboardButton("🗂 Source", url="https://github.com/reindears/cloudsy")]
+                [InlineKeyboardButton(" 🎞 Tamil Movies 🎞 ", url="https://t.me/tamil_kingdom")]
             ]
         )
     )
